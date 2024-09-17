@@ -11,8 +11,14 @@
             int number2 = 7;
             int sum = number + number2;
             Console.WriteLine(sum);
+          
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+          
+          Console.WriteLine("Cool text");
 
-            Console.WriteLine("Cool text");
         }
     }
 }
